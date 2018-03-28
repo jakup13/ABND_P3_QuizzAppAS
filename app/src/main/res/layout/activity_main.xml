@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.abndp3quizzappas.MainActivity">
+
+    <LinearLayout
+        style="@style/lin_lay_style"
+        android:contentDescription="@string/app_name">
+
+        <ImageView
+            style="@style/image_style"
+            android:contentDescription="@string/andrzej_sapkowski_photo_1"
+            android:src="@drawable/as_281_1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_margin_bottom_16"
+            android:text="@string/as_name"
+            android:textColor="@color/textColorMain"
+            android:textSize="@dimen/text_size_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_margin_bottom_16"
+            android:text="@string/as_info"
+            android:textColor="@color/textColorMain"
+            android:textSize="@dimen/text_size_14" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_margin_bottom_16"
+            android:text="@string/as_info_end"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_16"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/nav_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                style="@style/start_button_style"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:onClick="start"
+                android:text="@string/btn_start_text" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

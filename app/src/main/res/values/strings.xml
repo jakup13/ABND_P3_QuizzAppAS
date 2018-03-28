@@ -1,0 +1,56 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">AS Quiz</string>
+    <string name="app_name_2">AS Quiz</string>
+    <string name="as_name">Andrzej Sapkowski</string>
+    <string name="as_info"> is one of the most popular Polish writers - known and respected in Poland and abroad.
+        \nHis books were translated, among others to Czech, Lithuanian, French, Slovak, English, Italian, German, Spanish and Russian.
+        He has a lot of admirers in Poland, but his work is also very popular in Russia, the Czech Republic and Slovakia, where his books spread in tens of thousands of copies.
+        He is the winner of many awards and distinctions.</string>
+    <string name="as_info_end">And what do you know about AS?</string>
+
+    <string name="quest_1">1. Andrzej Sapkowski was born in Poland, in the city of:</string>
+    <string name="q1_1">Warsaw</string>
+    <string name="q1_2">Lodz</string>
+    <string name="q1_3">Sopot</string>
+
+    <string name="quest_2">2. Worked as (check two answers):</string>
+    <string name="q2_1">Dealer</string>
+    <string name="q2_2">Translator</string>
+    <string name="q2_3">Driver</string>
+
+    <string name="quest_3">3. Andrzej Sapkowski (mostly) writes:</string>
+    <string name="q3_1">Crime stories</string>
+    <string name="q3_2">Dramas</string>
+    <string name="q3_3">Fantasy novels</string>
+
+    <string name="quest_4">4. He became famous thanks to stories about:</string>
+    <string name="q4_1">King Arthur</string>
+    <string name="q4_2">Witcher</string>
+    <string name="q4_3">Reynevan</string>
+
+    <string name="quest_5">5. The name of the main character of his most famous saga is:</string>
+
+    <string name="btn_start_text">Start!</string>
+    <string name="btn_submit_text">Submit</string>
+    <string name="btn_reset_text">Reset</string>
+    <string name="str_name">Enter your name, please</string>
+    <string name="str_character_name">Enter his/her name</string>
+    <string name="the_last_task">And your name is:</string>
+    <string name="andrzej_sapkowski_photo_1">Andrzej Sapkowski photo 1</string>
+    <string name="andrzej_sapkowski_photo_2">Andrzej Sapkowski photo 2</string>
+    <string name="andrzej_sapkowski_photo_3">Andrzej Sapkowski photo 3</string>
+    <string name="andrzej_sapkowski_photo_4">Andrzej Sapkowski photo 4</string>
+
+    <string name="lack_of_quest_1">(Answer question 1!)</string>
+    <string name="lack_of_quest_2">(Answer question 2!)</string>
+    <string name="lack_of_quest_3">(Answer question 3!)</string>
+    <string name="lack_of_quest_4">(Answer question 4!)</string>
+    <string name="name_required">Name is required</string>
+    <string name="hero_name_required">Hero name is required!</string>
+    <string name="scoreMessage">\nyour score is: </string>
+    <string name="Geralt">geralt</string>
+    <string name="of_total_score"> of 5</string>
+    <string name="lack_of_quest_5">(Enter the name, please!)</string>
+    <string name="lack_of_name_6">(Please enter your name)</string>
+    <string name="back_not_allowed">Back button not allowed,\nuse \"RESET\" instead</string>
+</resources>

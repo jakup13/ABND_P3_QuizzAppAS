@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_margin_bottom_8">8dp</dimen>
+    <dimen name="text_margin_bottom_14">14dp</dimen>
+    <dimen name="text_margin_bottom_16">16dp</dimen>
+    <dimen name="text_margin_right_12">12dp</dimen>
+    <dimen name="text_margin_right_14">14dp</dimen>
+    <dimen name="text_margin_right_16">16dp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_big">24sp</dimen>
+    <dimen name="bottom_space_16">16dp</dimen>
+    <dimen name="bottom_space_12">12dp</dimen>
+    <dimen name="bottom_space_8">8dp</dimen>
+    <dimen name="bottom_space_4">4dp</dimen>
+    <dimen name="left_space_16">16dp</dimen>
+    <dimen name="left_space_12">12dp</dimen>
+    <dimen name="left_space_8">8dp</dimen>
+    <dimen name="left_space_4">4dp</dimen>
+    <dimen name="right_space_16">16dp</dimen>
+    <dimen name="right_space_12">12dp</dimen>
+    <dimen name="right_space_8">8dp</dimen>
+    <dimen name="right_space_4">4dp</dimen>
+    <dimen name="top_space_20">20dp</dimen>
+    <dimen name="top_space_16">16dp</dimen>
+    <dimen name="top_space_12">12dp</dimen>
+    <dimen name="top_space_8">8dp</dimen>
+    <dimen name="top_space_4">4dp</dimen>
+</resources>

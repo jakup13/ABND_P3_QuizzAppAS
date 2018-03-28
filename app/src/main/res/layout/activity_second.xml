@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.abndp3quizzappas.SecondActivity"
+    android:id="@+id/main_scroll_view">
+
+    <LinearLayout style="@style/lin_lay_style">
+
+        <ImageView
+            style="@style/image_style"
+            android:contentDescription="@string/andrzej_sapkowski_photo_2"
+            android:src="@drawable/as_281_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_margin_bottom_8"
+            android:text="@string/quest_1"
+            android:textColor="@color/questions_color_1"
+            android:textSize="@dimen/text_size_14" />
+
+        <RadioGroup
+            android:id="@+id/radio_group1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_space_16"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/q1_radio1_warsaw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="@string/q1_1" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/q1_radio2_lodz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="@string/q1_2" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/q1_radio3_sopot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="@string/q1_3" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/warn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/text_margin_bottom_16"
+            android:text="@string/lack_of_quest_1"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_12"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_margin_bottom_8"
+            android:text="@string/quest_2"
+            android:textColor="@color/questions_color_1"
+            android:textSize="@dimen/text_size_14" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/text_margin_bottom_16"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/q2_sel1_dealer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q2_1" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/q2_sel2_translator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/left_space_16"
+                android:text="@string/q2_2" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/q2_sel3_driver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/left_space_16"
+                android:text="@string/q2_3" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/warn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/top_space_4"
+            android:layout_marginBottom="@dimen/text_margin_bottom_14"
+            android:text="@string/lack_of_quest_2"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_12"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_margin_bottom_8"
+            android:layout_marginTop="@dimen/top_space_12"
+            android:text="@string/quest_3"
+            android:textColor="@color/questions_color_1"
+            android:textSize="@dimen/text_size_14" />
+
+        <RadioGroup
+            android:id="@+id/radio_group2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_space_16"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/q3_radio1_crimestories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="@string/q3_1" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/q3_radio2_dramas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="@string/q3_2" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/q3_radio3_fantasy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="@string/q3_3" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/warn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/text_margin_bottom_16"
+            android:text="@string/lack_of_quest_3"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_12"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_margin_bottom_8"
+            android:text="@string/quest_4"
+            android:textColor="@color/questions_color_1"
+            android:textSize="@dimen/text_size_14" />
+
+        <RadioGroup
+            android:id="@+id/radio_group3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_space_16"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/q4_radio1_kingarthur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="@string/q4_1" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/q4_radio2_witcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="@string/q4_2" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/q4_radio3_reynevan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="@string/q4_3" />
+        </RadioGroup>
+
+       <TextView
+            android:id="@+id/warn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/text_margin_bottom_16"
+            android:text="@string/lack_of_quest_4"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_12"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_margin_bottom_8"
+            android:text="@string/quest_5"
+            android:textColor="@color/questions_color_1"
+            android:textSize="@dimen/text_size_14" />
+
+        <EditText
+            android:id="@+id/character_name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_space_16"
+            android:hint="@string/str_character_name"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:id="@+id/warn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/text_margin_bottom_14"
+            android:text="@string/lack_of_quest_5"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_12"
+            android:visibility="gone" />
+
+        <ImageView
+            style="@style/image_style"
+            android:contentDescription="@string/andrzej_sapkowski_photo_3"
+            android:src="@drawable/as_281_3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_space_8"
+            android:layout_marginTop="@dimen/top_space_16"
+            android:text="@string/the_last_task"
+            android:textAlignment="center"
+            android:textColor="@color/questions_color_1"
+            android:textSize="@dimen/text_size_big" />
+
+        <TextView
+            android:id="@+id/warn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/text_margin_bottom_14"
+            android:text="@string/lack_of_name_6"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_12"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_space_16"
+            android:hint="@string/str_name"
+            android:inputType="textCapWords" />
+
+        <RelativeLayout
+            android:id="@+id/nav_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/submit_button"
+                style="@style/button_style"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:onClick="submitAnswers"
+                android:text="@string/btn_submit_text" />
+
+            <Button
+                android:id="@+id/reset_button"
+                style="@style/button_style"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:onClick="reset"
+                android:text="@string/btn_reset_text" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
